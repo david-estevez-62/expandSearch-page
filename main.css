@@ -1,0 +1,88 @@
+html, body{
+  height: 100%;
+  width:100%;
+  background: rgb(236, 237, 236);
+  margin: 0;
+}
+
+#searchBar{
+  position: absolute;
+  right:0;
+  background: white;
+  height:60px;
+  width:575px;
+  z-index: 0;
+}
+
+#searchBar input{
+  padding-left: 10px;
+  background: white;
+  border: 0;
+  outline: 0;
+}
+
+#searchBar .class1{
+  margin-top: 0px;
+  font-size: 14px;
+  height:60px;
+  width:210px;
+}
+
+#searchBar .class2{
+  margin-left:8%;
+  margin-top: 105px;
+  font-size: 84px;
+  height:70px;
+  width:84%;
+  font-family: acumin-pro,sans-serif;
+}
+
+
+#searchBar span{
+  position: absolute;
+  top:10px;
+  right:10px;
+  cursor: default;
+  font-size: 42px;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
+#searchBar.fullscreen{
+    z-index: 9999; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+ }
+
+
+
+/*#searchPg{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  right: 0;
+  display: none;
+  background: white;
+  z-index: 2;
+}
+
+#searchPg input{  
+  margin-top: 75px;
+  color:rgb(95,159,155);
+  margin-left: 50px;
+  font-size: 72px;
+  line-height:65px;
+  height:200px;
+  width:90%;
+  border: 0;
+  outline: 0;
+}*/
